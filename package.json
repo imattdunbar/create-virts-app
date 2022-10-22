@@ -2,6 +2,9 @@
 	"name": "create-virts-app",
 	"description": "A Vite Ionic React TypeScript App",
 	"version": "1.0.0",
+	"bin": {
+		"create-virts-app": "bin/index.js"
+	},
 	"scripts": {
 		"start": "vite",
 		"build": "tsc && vite build"
